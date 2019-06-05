@@ -1,0 +1,32 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "-node js -postgres -passport -sequelize -",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmyRukundo/passport.git"
+  },
+  "author": "EmyRukundo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmyRukundo/passport/issues"
+  },
+  "homepage": "https://github.com/EmyRukundo/passport#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "pg": "^7.11.0",
+    "sequelize": "^5.8.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
